@@ -1,0 +1,63 @@
+.card {
+  width: 250px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 10px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  background-color: #fbf7e3;
+}
+
+.honey {
+  width: 250px;
+  height: 210px;
+  -webkit-border-radius: 60px 60px 0px 0px;
+  -moz-border-radius: 60px 60px 0px 0px;
+  border-radius: 60px 60px 0px 0px;
+}
+
+.card h4 {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 20px;
+  color: #612406;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+  color: #612406;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.kg {
+  position: relative;
+  left: 160px;
+  bottom: 25px;
+}
+
+button {
+  color: #612406;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #f3df85;
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+  padding: 7px 0;
+  margin-left: 60px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
